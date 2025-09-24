@@ -1,0 +1,29 @@
+// {
+//   "compilerOptions": {
+//     "types": ["cypress"]
+//   },
+//   "include": ["**/*.ts"]
+// }
+
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@badeball/cypress-cucumber-preprocessor/*": ["./node_modules/@badeball/cypress-cucumber-preprocessor/dist/subpath-entrypoints/*"]
+    }
+  },
+}
+
+
+
+// {
+//   "compilerOptions": {
+//     "module": "commonjs",
+//     "target": "esnext",
+//     "esModuleInterop": true,
+//     "allowSyntheticDefaultImports": true,
+//     "types": ["cypress"]
+//   }
+// }
+
